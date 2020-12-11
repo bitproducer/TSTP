@@ -8,7 +8,7 @@ class Shape:																# parent class
 		self.width = None													# need variable to run in functions
 
 	def print_size( self ) :
-		print( """{} by {}""".format( self.width, self.length ) )
+		print( "{} by {}".format( self.width, self.length ) )
 
 	def calculate_perimeter( self ):
 		return self.width * 2 + self.length * 2
